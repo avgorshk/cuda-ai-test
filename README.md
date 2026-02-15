@@ -290,3 +290,41 @@ std::vector<float> GemmCUBLAS(const std::vector<float>& a,
 
 ## Task #7: Layer Norm Implementation in PyCUDA
 TBD
+
+# Results
+## 1_gelu_omp (134217728 elements)
+|Group|Name|Result|Rank|
+|-----|----|------|----|
+|**FAST**|**FAST**|**0.1135**|**-**|
+|**REF**|**REF**|**0.7408**|**-**|
+
+## 2_gelu_cuda (134217728 elements)
+|Group|Name|Result|Rank|
+|-----|----|------|----|
+|**FAST**|**FAST**|**0.1465**|**-**|
+|**REF**|**REF**|**0.2232**|**-**|
+
+## 4_naive_gemm_cuda (4096 elements)
+|Group|Name|Result|Rank|
+|-----|----|------|----|
+|**FAST**|**FAST**|**0.0759**|**-**|
+|**REF**|**REF**|**0.5769**|**-**|
+
+## 5_block_gemm_cuda (4096 elements)
+|Group|Name|Result|Rank|
+|-----|----|------|----|
+|**FAST**|**FAST**|**0.0733**|**-**|
+|**REF**|**REF**|**0.2992**|**-**|
+
+## 6_gemm_cublas (4096 elements)
+|Group|Name|Result|Rank|
+|-----|----|------|----|
+|**REF**|**REF**|**0.0541**|**-**|
+|**FAST**|**FAST**|**0.0694**|**-**|
+
+# Tasks Done
+**Total Passed: 0**
+
+---
+*Maximum Score: 576 (64 per task)
+*
