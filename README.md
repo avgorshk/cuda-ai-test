@@ -421,14 +421,14 @@ One may use numba or C strings to write CUDA kernels.
 ## 7_layernorm_pycuda (8192x16384 elements)
 |Group|Name|Result|Rank|
 |-----|----|------|----|
-|default|petrov|0.2360|1|
 |**REF**|**REF**|**0.2490**|**-**|
+|default|petrov|RUN FAILED|1|
 
 # Tasks Done
 ## default
 |Group|Name|Passed|Score|
 |-----|----|------|-----|
-|default|petrov|1/7|64|
+|default|petrov|1/7|32|
 
 Passed: 0
 
