@@ -416,6 +416,7 @@ One may use numba or C strings to write CUDA kernels.
 ## 6_softmax_cuda (8192x16384 elements)
 |Group|Name|Result|Rank|
 |-----|----|------|----|
+|default|petrov|0.2111|1|
 |**REF**|**REF**|**0.2241**|**-**|
 
 ## 7_layernorm_pycuda (8192x16384 elements)
@@ -428,7 +429,7 @@ One may use numba or C strings to write CUDA kernels.
 ## default
 |Group|Name|Passed|Score|
 |-----|----|------|-----|
-|default|petrov|1/7|32|
+|default|petrov|2/7|96|
 
 Passed: 0
 
