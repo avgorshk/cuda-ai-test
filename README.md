@@ -413,6 +413,16 @@ One may use numba or C strings to write CUDA kernels.
 |**FAST**|**FAST**|**0.0468**|**-**|
 |**REF**|**REF**|**0.0553**|**-**|
 
+## 6_softmax_cuda (8192x16384 elements)
+|Group|Name|Result|Rank|
+|-----|----|------|----|
+|**REF**|**REF**|**0.2241**|**-**|
+
+## 7_layernorm_pycuda (8192x16384 elements)
+|Group|Name|Result|Rank|
+|-----|----|------|----|
+|**REF**|**REF**|**0.2490**|**-**|
+
 # Tasks Done
 **Total Passed: 0**
 
