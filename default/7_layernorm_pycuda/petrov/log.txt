@@ -1,0 +1,1 @@
+nvcc fatal   : Don't know what to do with '/home/crazyproger/cuda-course-ai/ref/7_layernorm_pycuda/main.py'

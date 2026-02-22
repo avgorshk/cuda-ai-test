@@ -422,6 +422,7 @@ One may use numba or C strings to write CUDA kernels.
 |Group|Name|Result|Rank|
 |-----|----|------|----|
 |**REF**|**REF**|**0.2490**|**-**|
+|default|petrov|BUILD FAILED|-|
 
 # Tasks Done
 **Total Passed: 0**
