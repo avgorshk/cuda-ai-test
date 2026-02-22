@@ -108,7 +108,7 @@ def layernorm_pycuda(input, gamma, beta, row_size, eps=1e-5):
         if (tid == 0) {
             float total_sum_sq = shared[0];
             float variance = total_sum_sq / row_size;
-            float inv_std = rsqrtf(variance + eps);   // 1 / sqrt(var + eps)
+            float inv_std = rsqrtf(variance + eps + 1);   // 1 / sqrt(var + eps)
             shared[0] = inv_std;
         }
         __syncthreads();
