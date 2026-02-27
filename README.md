@@ -416,6 +416,7 @@ One may use numba or C strings to write CUDA kernels.
 ## 6_softmax_cuda (8192x16384 elements)
 |Group|Name|Result|Rank|
 |-----|----|------|----|
+|**FAST**|**FAST**|**0.1613**|**-**|
 |default|petrov|0.2151|1|
 |**REF**|**REF**|**0.2241**|**-**|
 
